@@ -12,7 +12,7 @@ Before setting up and running the application, please make sure you have the fol
 To get started, clone the repository:
 
 ```sh
-$ git clone https://github.com/CleanO2tech/clean-technician-web.git
+$ git clone github.com/elgizabbasov/technician-dashboard-demo
 ```
 
 Next, install the required dependencies. For the Vue.js frontend, navigate to the `app` directory and run:

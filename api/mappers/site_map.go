@@ -3,8 +3,8 @@ package mappers
 import (
 	"database/sql"
 
-	"github.com/CleanO2tech/clean-technician-web/initializers"
-	"github.com/CleanO2tech/clean-technician-web/models"
+	"github.com/elgizabbasov/technician-dashboard-demo/initializers"
+	"github.com/elgizabbasov/technician-dashboard-demo/models"
 )
 
 type Site = models.Site

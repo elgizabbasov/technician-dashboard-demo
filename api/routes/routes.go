@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/CleanO2tech/clean-technician-web/controllers"
+	"github.com/elgizabbasov/technician-dashboard-demo/controllers"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,4 +1,4 @@
-module github.com/CleanO2tech/clean-technician-web
+module github.com/elgizabbasov/technician-dashboard-demo
 
 go 1.19
 

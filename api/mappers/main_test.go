@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CleanO2tech/clean-technician-web/initializers"
+	"github.com/elgizabbasov/technician-dashboard-demo/initializers"
 )
 
 func TestMain(m *testing.M) {

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CleanO2tech/clean-technician-web/mappers"
-	"github.com/CleanO2tech/clean-technician-web/models"
+	"github.com/elgizabbasov/technician-dashboard-demo/mappers"
+	"github.com/elgizabbasov/technician-dashboard-demo/models"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )
