@@ -1,0 +1,20 @@
+<template>
+  <v-container fluid style="height: 100%; margin: 0; padding: 0; background-color: white;">
+    <sidebar-component/>
+    <v-row>
+      <v-col>
+        <statcard1-component/>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <temperaturechart-component/>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <sensor-health-component/>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
