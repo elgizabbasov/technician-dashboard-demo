@@ -15,7 +15,7 @@ To get started, clone the repository:
 $ git clone github.com/elgizabbasov/technician-dashboard-demo
 ```
 
-Next, install the required dependencies. For the Vue.js frontend, navigate to the `app` directory and run:
+Next, install the required dependencies (Note: You may need to install `npm` if it wasn't installed with Node.js). For the Vue.js frontend, navigate to the `app` directory and run:
 
 ```sh
 $ cd app
