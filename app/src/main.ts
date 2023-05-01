@@ -20,11 +20,11 @@ import Vuetify from 'vuetify/lib'
 
 Vue.config.productionTip = false;
 
-Vue.use(msal, {
- auth: {
-   clientId: "61a811b4-a62f-463a-a900-125bcaa1a35d"
- }
-});
+// Vue.use(msal, {
+//  auth: {
+//    clientId: ""
+//  }
+// });
 
 Vue.use(Vuex)
 Vue.component("sidebar-component", Sidebar)

@@ -9,7 +9,7 @@
         <v-navigation-drawer app expand-on-hover :mini-variant="true" height="100%" :clipped="true" color=#dee8ff permanent>
             <v-list nav rounded>
                 <router-link to="/dashboard">
-                    <v-img src="@/assets/05-CarbinX-Wordmark-TM-DarkBlue-RGB-SM.png"></v-img>
+                    <v-img src="@/assets/home-logo.png"></v-img>
                 </router-link>
                 <v-divider class="mt-4 mb-4"></v-divider>
                 <v-list-item 

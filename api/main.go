@@ -79,8 +79,8 @@ func populateTables() {
 		siteid1 := uuid.New().String()
 		siteid2 := uuid.New().String()
 
-		insertSite(siteid1, "Sleepy Hallow", "Cleano2", "555 Ave SW.", "T2T4G5", "Calgary", "Alberta", "Canada", "2021-10-14 13:57:01", "2020-10-14 13:57:01")
-		insertSite(siteid2, "Ramses", "Cleano2", "554 Ave SW.", "H3T5G6", "Calgary", "Alberta", "Canada", "2021-10-14 13:57:02", "2020-10-14 13:57:02")
+		insertSite(siteid1, "Sleepy Hallow", "FakeOrg", "555 Ave SW.", "T2T4G5", "Calgary", "Alberta", "Canada", "2021-10-14 13:57:01", "2020-10-14 13:57:01")
+		insertSite(siteid2, "Ramses", "FakeOrg", "554 Ave SW.", "H3T5G6", "Calgary", "Alberta", "Canada", "2021-10-14 13:57:02", "2020-10-14 13:57:02")
 
 		// mock UUID generation
 		deviceid1 := uuid.New().String()
