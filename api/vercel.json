@@ -1,8 +1,15 @@
 {
     "build": {
         "env": {
-            "GO_VERSION": "go1.19.5"
+          "GO_VERSION": "go1.19.5"
+        },
+        "command": "go build -o ./api ./main.go"
+      },
+      "routes": [
+        {
+          "src": "/.*",
+          "dest": "/api/:path*"
         }
-    }
+      ]
 }
   
