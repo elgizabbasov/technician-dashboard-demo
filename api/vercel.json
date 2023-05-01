@@ -1,10 +1,8 @@
 {
-    "version": 2,
-    "builds": [
-        {
-        "src": "main.go",
-        "use": "@vercel/go"
+    "build": {
+        "env": {
+            "GO_VERSION": "go1.19.5"
         }
-    ]
+    }
 }
   
