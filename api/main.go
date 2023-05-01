@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
+	"net/http"
 	"strconv"
 	"time"
 
@@ -26,7 +27,7 @@ func init() {
 
 type SensorData = models.SensorData
 
-func main() {
+func Handler(w http.ResponseWriter, rq *http.Request) {
 	// initialize a Gin router
 	r := gin.Default()
 
