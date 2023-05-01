@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
+	"net/http"
 	"os"
 	"strconv"
 	"time"
@@ -48,7 +49,7 @@ func main() {
 	routes.SetUpRoutes(r)
 
 	// Start the server
-	r.Run(":", os.Getenv("PORT")) // TODO: listen and serve on 0.0.0.0:PORT from env vars in prod
+	http.ListenAndServe(":"+os.Getenv("PORT"), r)
 }
 
 func checkErr(err error) {
