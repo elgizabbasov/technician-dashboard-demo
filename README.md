@@ -24,18 +24,16 @@ $ cd app
 $ (sudo) npm install
 ```
 
-For the Go backend, navigate to the `api` directory and run:
+For the Go backend, navigate to the root directory and run:
 
 ```sh
-$ cd api
 $ go mod download
 ```
 
 ## Run Development Server
-To run the development server for the Go backend, navigate to the `api` directory and run:
+To run the development server for the Go backend, navigate to the root directory and run:
 
 ```sh
-$ cd api
 $ go run main.go
 ```
 
