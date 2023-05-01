@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
-	"net/http"
 	"os"
 	"strconv"
 	"time"
@@ -33,7 +32,9 @@ func main() {
 	r := gin.Default()
 
 	// Add CORS middleware, Default will allow any localhost:* port
-	r.Use(cors.Default())
+	config := cors.DefaultConfig()
+	config.AllowAllOrigins = true
+	r.Use(cors.New(config))
 
 	// **** Creating SQLITE mock DB tables below ****
 	createSiteTable()
@@ -49,7 +50,7 @@ func main() {
 	routes.SetUpRoutes(r)
 
 	// Start the server
-	http.ListenAndServe(":"+os.Getenv("PORT"), r)
+	r.Run(":" + os.Getenv("PORT"))
 }
 
 func checkErr(err error) {
