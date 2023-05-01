@@ -33,25 +33,25 @@ export default {
     'Spinner' : Spinner
   },
   data() {
-    return {
-      not_authenticated: true
-    };
+    // return {
+    //   not_authenticated: true
+    // };
   },
   created() {
     // check if showComponent value is stored in local storage
-    const not_auth = localStorage.getItem('not_authenticated');
-    // if storedValue is not null, parse it as a boolean and assign it to showComponent
-    if (not_auth !== null) {
-      this.not_authenticated = JSON.parse(not_auth);
-    }
+    // const not_auth = localStorage.getItem('not_authenticated');
+    // // if storedValue is not null, parse it as a boolean and assign it to showComponent
+    // if (not_auth !== null) {
+    //   this.not_authenticated = JSON.parse(not_auth);
+    // }
     
-    if (!this.$msal.isAuthenticated()) {
-      this.$msal.signIn();
-    } else {
-      this.not_authenticated = false; // hide the component
-      // store the showComponent value in local storage as a string
-      localStorage.setItem('not_authenticated', JSON.stringify(this.not_authenticated));
-    }
+    // if (!this.$msal.isAuthenticated()) {
+    //   this.$msal.signIn();
+    // } else {
+    //   this.not_authenticated = false; // hide the component
+    //   // store the showComponent value in local storage as a string
+    //   localStorage.setItem('not_authenticated', JSON.stringify(this.not_authenticated));
+    // }
   },
   // mounted() {
   //   const not_auth = localStorage.getItem('not_authenticated');
