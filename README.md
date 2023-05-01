@@ -3,6 +3,8 @@ Welcome to CarbinX's technician dashboard web app!
 
 The application was developed over Ubuntu 20.04 using Gin Web Framework with Go 1.19.5, Vue.js 2.6 with Vuetify 2.6, and SQLite3.
 
+NOTE: Login functionality temporarily disabled.
+
 ## Requirements
 Before setting up and running the application, please make sure you have the following software installed:
 - Node.js (https://nodejs.org/en/download/)
