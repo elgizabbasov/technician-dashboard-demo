@@ -33,7 +33,9 @@ func main() {
 
 	// Add CORS middleware, Default will allow any localhost:* port
 	config := cors.DefaultConfig()
-	config.AllowAllOrigins = true
+	config.AllowOrigins = []string{"https://technician-dashboard-demo.vercel.app"} // Replace with your Vercel frontend domain
+	config.AllowMethods = []string{"GET", "POST", "PUT", "DELETE"}
+	config.AllowHeaders = []string{"Origin", "Content-Type", "Authorization"}
 	r.Use(cors.New(config))
 
 	// **** Creating SQLITE mock DB tables below ****
