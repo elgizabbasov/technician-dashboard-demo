@@ -1,9 +1,9 @@
 # CarbinX Technician Maintenance Hub
-Welcome to CarbinX's technician maintenance web app!
+Welcome to [CarbinX's](https://www.carbinx.com/) technician maintenance web app!
 
 The CarbinX [Technician Maintenance Hub](https://technician-dashboard-demo.vercel.app/) is a user-friendly web application designed to help CleanO2 technicians to set up and maintain CarbinX devices worldwide. The application also allows technicians to easily monitor device & sensor health via dashboards and send regular maintenance reports.
 
-CleanO2 Carbon Capture Technologies' CarbinX device captures carbon dioxide from heating-appliance flue gas in a one-step, zero-waste reaction. While the existing solution for the maintenance of the devices is sufficient, it needs certain features and is not easy to scale. In particular, it is challenging for technicians to view real-time device updates during bi-weekly maintenance inspections. The CarbinX Technician Dashboard application features an intuitive interface that allows users to overview and examine charts of various components of the CarbinX device, such as temperature sensor data for a device. 
+[CleanO2 Carbon Capture Technologies'](https://cleano2.ca/) CarbinX device captures carbon dioxide from heating-appliance flue gas in a one-step, zero-waste reaction. While the existing solution for the maintenance of the devices is sufficient, it needs certain features and is not easy to scale. In particular, it is challenging for technicians to view real-time device updates during bi-weekly maintenance inspections. The CarbinX Technician Dashboard application features an intuitive interface that allows users to overview and examine charts of various components of the CarbinX device, such as temperature sensor data for a device. 
 
 The CarbinX Technician Maintenace Hub is an innovative software solution for the CleanO2 technician staff looking to get informed on the state of health of the device and its components or gather broad device and sensor information without needing physical work or expertise.
 
