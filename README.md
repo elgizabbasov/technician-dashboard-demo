@@ -1,4 +1,4 @@
-# CarbinX Device Maintenance Hub
+# CarbinX Technician Maintenance Hub
 Welcome to CarbinX's technician maintenance web app!
 The CarbinX Technician Maintenance Hub is a user-friendly web application designed to help CleanO2 technicians to set up and maintain CarbinX devices worldwide. The application also allows technicians to easily monitor device & sensor health via dashboards and send regular maintenance reports.
 
