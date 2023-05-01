@@ -1,11 +1,10 @@
-package handler
+package main
 
 import (
 	"database/sql"
 	"fmt"
 	"log"
 	"math/rand"
-	"net/http"
 	"os"
 	"strconv"
 	"time"
@@ -28,7 +27,7 @@ func init() {
 
 type SensorData = models.SensorData
 
-func Handler(w http.ResponseWriter, rq *http.Request) {
+func main() {
 	// initialize a Gin router
 	r := gin.Default()
 
@@ -49,11 +48,7 @@ func Handler(w http.ResponseWriter, rq *http.Request) {
 	routes.SetUpRoutes(r)
 
 	// Start the server
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "3000" // use default port if not set
-	}
-	r.Run(":", port) // TODO: listen and serve on 0.0.0.0:PORT from env vars in prod
+	r.Run(":", os.Getenv("PORT")) // TODO: listen and serve on 0.0.0.0:PORT from env vars in prod
 }
 
 func checkErr(err error) {

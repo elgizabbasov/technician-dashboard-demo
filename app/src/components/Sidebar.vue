@@ -3,7 +3,7 @@
         <v-toolbar flat>
             <!-- <v-app-bar-nav-icon @click="drawMini = !drawMini"></v-app-bar-nav-icon> -->
             <v-toolbar-title>
-                CarbinX Technician
+                Technician Maintenance Hub
             </v-toolbar-title>
         </v-toolbar>
         <v-navigation-drawer app expand-on-hover :mini-variant="true" height="100%" :clipped="true" color=#dee8ff permanent>
