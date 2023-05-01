@@ -6,6 +6,7 @@ import (
 	"log"
 	"math/rand"
 	"net/http"
+	"os"
 	"strconv"
 	"time"
 
@@ -48,7 +49,11 @@ func Handler(w http.ResponseWriter, rq *http.Request) {
 	routes.SetUpRoutes(r)
 
 	// Start the server
-	r.Run(":3000") // TODO: listen and serve on 0.0.0.0:PORT from env vars in prod
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "3000" // use default port if not set
+	}
+	r.Run(":", port) // TODO: listen and serve on 0.0.0.0:PORT from env vars in prod
 }
 
 func checkErr(err error) {
