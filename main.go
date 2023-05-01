@@ -31,9 +31,9 @@ func main() {
 	// initialize a Gin router
 	r := gin.Default()
 
-	// Add CORS middleware, Default will allow any localhost:* port
+	// Add CORS middleware
 	config := cors.DefaultConfig()
-	config.AllowOrigins = []string{"https://technician-dashboard-demo.vercel.app"} // Replace with your Vercel frontend domain
+	config.AllowOrigins = []string{"https://technician-dashboard-demo.vercel.app"}
 	config.AllowMethods = []string{"GET", "POST", "PUT", "DELETE"}
 	config.AllowHeaders = []string{"Origin", "Content-Type", "Authorization"}
 	r.Use(cors.New(config))
