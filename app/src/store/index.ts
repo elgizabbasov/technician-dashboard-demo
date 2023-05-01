@@ -6,7 +6,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    url: 'https://technician-dashboard-demo-backend.vercel.app/',
+    url: 'https://technician-dashboard-demo.herokuapp.com/',
     selectedDevice: '',
     selectedDeviceName: '',
     pSensorLength: 0,
