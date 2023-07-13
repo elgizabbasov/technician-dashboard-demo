@@ -11,6 +11,26 @@ The application was developed over Ubuntu 20.04 using Gin Web Framework with Go 
 
 NOTE: Login functionality temporarily disabled.
 
+## Project Structure
+All frontend code is under app/ and all backend code is under the root, technician-dashboard-demo/.
+
+```
+technician-dashboard-demo/
+├── app/
+├── controllers/
+├── initializers/
+├── mappers/
+├── models/
+├── routes/
+├── go.mod
+├── go.sum
+├── main.go
+├── Procfile
+├── README.md
+├── sqlite-database.db
+└── technician-dashboard-demo.exe
+```
+
 ## Requirements
 Before setting up and running the application, please make sure you have the following software installed:
 - Node.js (https://nodejs.org/en/download/)
