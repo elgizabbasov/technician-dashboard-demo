@@ -12,7 +12,7 @@ The application was developed over Ubuntu 20.04 using Gin Web Framework with Go 
 NOTE: Login functionality temporarily disabled.
 
 ## Project Structure
-All frontend code is under app/ and all backend code is under the root, technician-dashboard-demo/.
+All frontend code is under `app/` and all backend code is under `root`, `technician-dashboard-demo/`.
 
 ```
 technician-dashboard-demo/
